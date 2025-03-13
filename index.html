@@ -1,11 +1,294 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>https://www.docplanner.com/</title>
+    <link rel="stylesheet" href="./vendor/style.css">
+    <title>Docplanner Clone</title>
+
 </head>
+
 <body>
-    
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./vendor/images/logo/logo.svg" alt="Logo de l'entreprise">
+        </div>
+        <div class="menu">
+            <a href="#about" class="active">About us</a>
+            <a href="#career">Career</a>
+            <div class="dropdown">
+                <a href="#departments">Departments</a>
+                <div class="dropdown-content">
+                    <a href="#marketing">Marketing</a>
+                    <a href="#hr">Human Resources</a>
+                    <a href="#it">IT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+        <h1 class="intro-text">Making the healthcare experience more human</h1>
+    </section>
+
+    <section class="info-container">
+        <div class="info-box">
+            <p class="smallps">We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+        </div>
+        <div class="info-box">
+            <p class="smallps">We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+            <p><a href="#">Please check the 2025 Docplanner Trust and Transparency Report</a></p>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="card green">
+            <img src="./vendor/images/icons/patients.png" alt="patient-icon">
+            <h2>For patients</h2>
+            <p class="smallp doc">Find a doctor, book a visit and solve any health-related doubt.</p>
+            <div class="style-select">
+                <select data-id="select-country">
+                    <option>Choose country</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Czech</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>Mexico</option>
+                    <option>Peru</option>
+                    <option>Poland</option>
+                    <option>Portugal</option>
+                    <option>Spain</option>
+                    <option>Turkey</option>
+                </select>
+            </div>
+        </div>
+        <div class="card blue">
+            <img src="./vendor/images/icons/doctors.png" alt="doctor-icon">
+            <h2>For doctors</h2>
+            <p class="smallp doc">Save time managing visits and cut no-shows by half.</p>
+            <div class="style-select">
+                <select data-id="select-country">
+                    <option>Choose country</option>
+                    <option value="#">Argentina</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Chile</option>
+                    <option value="#">Colombia</option>
+                    <option value="#">Czech</option>
+                    <option value="#">Germany</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Peru</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Portugal</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Turkey</option>
+                </select>
+            </div>
+        </div>
+        <div class="card black">
+            <img src="./vendor/images/icons/visits.png" alt="patient-icon">
+            <h2>For clinics</h2>
+            <p class="smallp doc">Deliver an exceptional patient experience in your clinic.</p>
+            <div class="style-select">
+                <select data-id="domain-switcher">
+                    <option>2 to 20 specialists</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Czech</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Turkey</option>
+                </select>
+                <select data-id="domain-switcher">
+                    <option>More than 20 specialists</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Spain</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="partnair-info">
+        <div id="partnair-info-text">
+            <p class="intro-text">We are a global company<br>with local culture</p>
+        </div>
+        <div id="partnair-info-list-logo">
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 1</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 2</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 3</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 4</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 5</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 6</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 7</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 8</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 9</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 10</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 11</p>
+            </div>
+            <div class="logo-item">
+                <img src="./vendor/images/icons/start-icon.png" alt="start-icon">
+                <p>Boite 12</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="healthcare-platform">
+        <div class="platform-text">
+            <h2 class="intro-text">The world's biggest healthcare platform</h2>
+            <p class="smallp">We work from 11 offices all over the world, bringing <br> Docplanner Group to life in 13 countries.</p>
+            <img class="bg-section-image" src="./vendor/images/icons/start-icon.png" alt="start-icon">
+        </div>
+        <div class="platform-stats">
+            <div class="stat-box">
+                <img src="./vendor/images/icons/flag.png" alt="Leader icon">
+                <h3>Leader in 13 <br> countries</h3>
+                <p>Poland, Brazil, Mexico, Spain, Italy,<br> Germany, Turkey, Colombia, Czech<br> Republic, Portugal, Argentina, Peru,<br> and Chile</p>
+            </div>
+            <div class="stat-box">
+                <img src="./vendor/images/icons/visits.png" alt="Appointments icon">
+                <h3>22,000,000 <br>appointments</h3>
+                <p>booked last month</p>
+            </div>
+            <div class="stat-box">
+                <img src="./vendor/images/icons/patients.png" alt="Patients icon">
+                <h3>80,000,000 <br>patients</h3>
+                <p>visit our websites each month</p>
+            </div>
+            <div class="stat-box">
+                <img src="./vendor/images/icons/doctors.png" alt="Doctors icon">
+                <h3>260,000 <br>active doctors</h3>
+                <p>trust our solutions</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bases_data">
+        <header class="bases_data_head">
+            <h1 class="intro-text">
+                Improve the lives of millions.<br>
+                Change yours forever.
+            </h1>
+            <p class="smallp">
+                More than 2800 team mates share our same vision, goals and passion.<br>
+                With offices in Amsterdam (HQ), Warsaw, Barcelona, Munich, Istanbul, <br>
+                Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent <br>
+                never stops.
+            </p>
+        </header>
+    </section>
+
+    <section id="travel-py">
+        <div class="container-travel">
+            <div class="card-ops">
+                <img src="./vendor/images/country/warsaw.png" alt="Warsaw">
+                <h3>Warsaw</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/barcelona.png" alt="Barcelona">
+                <h3>Barcelona</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/munich.png" alt="Munich">
+                <h3>Munich</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/istanbul.png" alt="Istanbul">
+                <h3>Istanbul</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/rio-janeiro.png" alt="Rome">
+                <h3>Rome</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/bologna.png" alt="Bologna">
+                <h3>Bologna</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/curitiba.png" alt="curitiba">
+                <h3>curitiba</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/rio-janeiro.png" alt="Rio de Janeiro">
+                <h3>Rio de Janeiro</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/mexico-city.png" alt="Mexico City">
+                <h3>Mexico City</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/bogota.png" alt="Bogota">
+                <h3>Bogota</h3>
+                <button>See Openings</button>
+            </div>
+            <div class="card-ops">
+                <img src="./vendor/images/country/amsterdam.png" alt="Amsterdam">
+                <h3>Amsterdam</h3>
+                <button>See Openings</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h1 class="intro-text-black">Sounds interesting? Join us now!</h1>
+        <button>SEE ALL CURRENT OPENINGS</button>
+        <hr>
+        <p class="countries">
+            We are leaders in 13 countries: <a href="#">Finland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile</a>
+        </p>
+        <p class="copyright">
+            www.docajasner.com © 2025
+        </p>
+    </footer>
 </body>
+
 </html>
